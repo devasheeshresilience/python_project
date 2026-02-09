@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-uxh($65-jub(#r8$z5+v8f43xb#q7w78l&pt$)#3v%lycm!&kv
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'resiliencesoft.pythonanywhere.com',
+]
 
 
 # Application definition
